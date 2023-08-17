@@ -1,0 +1,83 @@
+/* wishlist.css */
+
+/* Style for the header */
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style for the wishlist section */
+.wishlist {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the wishlist items */
+.wishlist-item {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.wishlist-item img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.wishlist-item h3 {
+  margin: 0;
+}
+
+.wishlist-item-details {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Add more styles as needed */
